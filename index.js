@@ -35,6 +35,7 @@ async function unrarFile({ rarPath, destinations }) {
     try {
 
         await unrar(rarPath, destinations);
+        shell.openPath(destinations)
 
     } catch (error) {
         console.log(error)
