@@ -17,3 +17,9 @@ along with an application made with electron. This code is an example of how to 
 - front-end using html, css and javascript
 - backend with javascript and libraries available on npm
 - communication between backend and frontend via ipcRenderer (https://www.electronjs.org/pt/docs/latest/api/ipc-renderer)
+
+# install
+npm install
+
+# run 
+npm start
